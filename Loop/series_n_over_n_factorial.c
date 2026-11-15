@@ -1,4 +1,4 @@
-//Printing the sum of n/n! series
+// Prints the sum of the series 1/1! + 2/2! + ... + n/n!
 
 #include<stdio.h>
 
