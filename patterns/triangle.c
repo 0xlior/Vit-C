@@ -1,13 +1,13 @@
 #include<stdio.h>
-void hollow_triangle_pattern(int n);
+void triangle_pattern(int n);
 
 int main(){
   int height; 
 printf("Enter height: ");
 scanf("%d", &height);
-hollow_triangle_pattern(height);
+triangle_pattern(height);
 }
-void hollow_triangle_pattern(int n)
+void triangle_pattern(int n)
 {
     for (int i = 1; i <= n; i++)
 {
